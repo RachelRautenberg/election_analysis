@@ -16,3 +16,7 @@ Having the poll data for the election, an analysis was completed to determine: t
          Charles Casper Stockham: 23.0% 85,213
          Diana DeGette: 73.8% 272,892
          Raymon Anthony Doane: 3.1% 11,606
+
+### Challenge Overview
+
+### Challenge Summary
