@@ -92,8 +92,10 @@ for county_name in county_votes:
 
     # Calculate percentage
     vote_percentage2 = float(votes2) / float(total_votes) * 100
-    county_results = (f"{county_name}: {vote_percentage2:.1f}%: ({votes2:,})")
-    print(county_results)
+    county_results = (f"{county_name}: {vote_percentage2:.1f}%: ({votes2:,})\n")
+    with open(election_analysis, "a") as txt_file:
+        print(county_results, end="")
+        txt_file.write(county_results)
 
     # Determining largest turnout
     if (votes2 > votes_for_county) and (vote_percentage2 > county_percentage):
@@ -126,19 +128,17 @@ for candidate_name in candidate_votes:
         winning_candidate = candidate_name  
 
     # Print candidate name and percentage
-    candidate_results = (f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
-    print(candidate_results)
-            
-with open(election_analysis, "a") as txt_file:
+    with open(election_analysis, "a") as txt_file:
+        candidate_results = (f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")   
+        print(candidate_results)
+        txt_file.write(candidate_results)
+
     winning_candidate_summary = (
         f"-------------------------------------\n"
         f"Winner: {winning_candidate}\n"
         f"Winning Vote Count: {winning_count:,}\n"
         f"Winning Percentage: {winning_percentage:.1f}%\n"
         f"--------------------------------------\n")
+with open(election_analysis, "a") as txt_file:    
     print(winning_candidate_summary, end="")
-    txt_file.write(election_results)
-    txt_file.write(county_results)
-    txt_file.write(candidate_results)
     txt_file.write(winning_candidate_summary)
-    
