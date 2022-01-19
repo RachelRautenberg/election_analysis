@@ -23,7 +23,7 @@ Having completed the initial analysis to determine winner of the election, the r
 ### Challenge Summary
 #### Election-Audit Results:
 
-The image included below is the output of the final run of analysis. Clearly indicating Diana DeGette as the popluar vote winnder, having received 73.8% of the total votes. 
+The image included below is the output of the final run of analysis. Clearly indicating Diana DeGette as the popluar vote winner, having received 73.8% of the total votes. 
 
 ![election results](https://github.com/RachelRautenberg/election_analysis/blob/main/analysis/election_analysis_results.PNG)
 
