@@ -36,5 +36,6 @@ This script was effective and efficient, resulting in expected output quickly. W
 
 Additional modifications to consider:
 - In addition to writing a full results summary for the election office, county analysis could be written in a seperate file that is shared with the candidates or campaigns; it may be of interest to them to direct their campaing focus where the biggest turnout is, or possible in the lower turnout areas to increase overall voter participation.
-- 
+- Given political party information, additional code could be included to understand the party vote perentages either, potentially by candidate or county.
+- Should this script be implemented across the nation, additional script would address state vote data as well. 
 
