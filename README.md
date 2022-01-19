@@ -35,7 +35,7 @@ Next, an if loop with not in logic was used to collect candidate names, appendin
 This script was effective and efficient, resulting in expected output quickly. While this analysis was run with only participation of three counties and three candidates, this could easily be used for compiling statewide data.  The script is written in such a manner that we pull names of candidates and counties mitgating the need to edit script or provide a list of candidate names, for example if an electronic ballot allowed for write ins, that name would also appear in the data and show up in the results. 
 
 Additional modifications to consider:
-- In addition to writing a full results summary for the election office, county analysis could be written in a seperate file that is shared with the candidates or campaigns; it may be of interest to them to direct their campaing focus where the biggest turnout is, or possible in the lower turnout areas to increase overall voter participation.
+- In addition to writing a full results summary for the election office, county analysis could be written in a seperate file that is shared with the candidates or campaigns; it may be of interest to them to direct their campaign focus where the biggest turnout is, or possible in the lower turnout areas to increase overall voter participation.
 - Given political party information, additional code could be included to understand the party vote perentages either, potentially by candidate or county.
 - Should this script be implemented across the nation, additional script would address state vote data as well. 
 
