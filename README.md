@@ -33,7 +33,7 @@ In order to acheive this, code block was started with collecting total election 
 
 Next, an if loop with not in logic was used to collect candidate names, appending the list of candidates for each new name. Then, similar to total count, within the for loop, once candidate names were gathered, each candidated was incremented once fore every time they received a vote. A very similar section of code was run to gather county names and increment for each time the county name appeared within the data. 
 
-![candidate_county]()
+![candidate_county](https://github.com/RachelRautenberg/election_analysis/blob/main/analysis/total_votes.PNG)
 ![winning_summary]()
 
 #### Election-Audit Summary
