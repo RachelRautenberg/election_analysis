@@ -29,7 +29,12 @@ The image included below is the output of the final run of analysis. Clearly ind
 
 In order to acheive this, code block was started with collecting total election votes. This was done using a for loop to increment by 1 for each row, not including the header row. 
 
+![total_votes](https://github.com/RachelRautenberg/election_analysis/blob/main/analysis/total_votes.PNG)
+
 Next, an if loop with not in logic was used to collect candidate names, appending the list of candidates for each new name. Then, similar to total count, within the for loop, once candidate names were gathered, each candidated was incremented once fore every time they received a vote. A very similar section of code was run to gather county names and increment for each time the county name appeared within the data. 
+
+![candidate_county]()
+![winning_summary]()
 
 #### Election-Audit Summary
 This script was effective and efficient, resulting in expected output quickly. While this analysis was run with only participation of three counties and three candidates, this could easily be used for compiling statewide data.  The script is written in such a manner that we pull names of candidates and counties mitgating the need to edit script or provide a list of candidate names, for example if an electronic ballot allowed for write ins, that name would also appear in the data and show up in the results. 
