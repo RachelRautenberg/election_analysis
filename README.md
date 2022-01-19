@@ -20,7 +20,7 @@ Having the poll data for the election, an analysis was completed to determine: t
 ### Challenge Overview
 ##### Having completed the initial analysis to determine winner of the election, the request was processed to complete analysis to identify the county with the highest turnout and turnout per county
 
-![election results]https://github.com/RachelRautenberg/election_analysis/blob/main/analysis/election_analysis_results.PNG
+![election results](https://github.com/RachelRautenberg/election_analysis/blob/main/analysis/election_analysis_results.PNG)
 
 
 
